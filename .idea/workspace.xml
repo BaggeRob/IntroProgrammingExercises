@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3afcdd53-1135-4905-ae54-068ffa4414c6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TWUIntro/exercises/Triangle.class" afterPath="$PROJECT_DIR$/out/production/TWUIntro/exercises/Triangle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TWUIntro/exercises/TriangleTest.class" afterPath="$PROJECT_DIR$/out/production/TWUIntro/exercises/TriangleTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercises/Triangle.java" afterPath="$PROJECT_DIR$/src/exercises/Triangle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercises/TriangleTest.java" afterPath="$PROJECT_DIR$/src/exercises/TriangleTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TWUIntro.iws" />
@@ -31,9 +29,11 @@
       <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/exercises/Triangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.88657844">
-              <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-              <folding />
+            <state vertical-scroll-proportion="0.5746692">
+              <caret line="93" column="31" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+              <folding>
+                <element signature="e#1959#1967#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -443,7 +443,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#1959#1967#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -505,9 +507,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercises/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88657844">
-          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-          <folding />
+        <state vertical-scroll-proportion="0.5746692">
+          <caret line="93" column="31" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+          <folding>
+            <element signature="e#1959#1967#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
