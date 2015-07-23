@@ -28,4 +28,41 @@ public class Triangle {
         }
         return line;
     }
+
+    public String rightTriangle(int n) {
+        if(n == 0){
+            return "";
+        }else if(n == 1){
+            return "*";
+        }else{
+            String temp = "";
+            for(int i = 0; i < n; i++){
+                temp += "*";
+            }
+            return rightTriangle(n-1) + System.lineSeparator() + temp;
+        }
+    }
+
+    public String isoscelesTriangle(int n) {
+        String isosceles = "";
+        for (int i = 1; i <= n; i++) {
+            String line = "";
+            String padding = "";
+
+            for (int j = 0; j < (2 * i - 1); j++) {
+                line += "*";
+            }
+
+            int paddingNbr = n - i;
+            for (int k = 0; k < paddingNbr; k++) {
+                padding += " ";
+            }
+
+            isosceles += padding + line;
+            if (i != n) {
+                isosceles += System.lineSeparator();
+            }
+        }
+        return isosceles;
+    }
 }

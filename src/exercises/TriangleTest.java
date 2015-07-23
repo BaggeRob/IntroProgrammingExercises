@@ -62,5 +62,49 @@ public class TriangleTest {
     }
 
 
+    @Test
+    public void rightTriangleZero(){
+        assertEquals("", new Triangle().rightTriangle(0));
+    }
+
+    @Test
+    public void rightTriangleOne(){
+        assertEquals("*", new Triangle().rightTriangle(1));
+    }
+
+    @Test
+    public void rightTriangleTwo(){
+        assertEquals("*" + System.lineSeparator() + "*" + "*", new Triangle().rightTriangle(2));
+    }
+
+    @Test
+    public void rightTriangleFour(){
+        assertEquals("*" + System.lineSeparator() + "**" + System.lineSeparator() + "***" + System.lineSeparator() + "****", new Triangle().rightTriangle(4));
+    }
+
+    @Test
+    public void isoscelesTriangleZero(){
+        assertEquals("", new Triangle().isoscelesTriangle(0));
+    }
+
+    @Test
+    public void isoscelesTriangleOne(){
+        assertEquals("*", new Triangle().isoscelesTriangle(1));
+    }
+
+    @Test
+    public void isoscelesTriangleTwo(){
+        assertEquals(" " + "*" + System.lineSeparator() + "***", new Triangle().isoscelesTriangle(2));
+    }
+
+    @Test
+    public void isoscelesTriangleThree(){
+        assertEquals("  " + "*" + System.lineSeparator() + " ***" + System.lineSeparator() + "*****", new Triangle().isoscelesTriangle(3));
+    }
+
+    @Test
+    public void isoscelesTriangleFour() {
+        assertEquals("   " + "*" + System.lineSeparator() + "  ***" + System.lineSeparator() + " *****" + System.lineSeparator() + "*******", new Triangle().isoscelesTriangle(4));
+    }
 
 }
