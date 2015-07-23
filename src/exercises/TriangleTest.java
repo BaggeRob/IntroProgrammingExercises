@@ -44,21 +44,18 @@ public class TriangleTest {
     public void verticalLineTwo() {
         String temp = new Triangle().verticalLine(2);
         assertEquals("*" + System.lineSeparator() + "*", temp);
-        System.out.println(temp);
     }
 
     @Test
     public void verticalLineThree() {
         String temp = new Triangle().verticalLine(3);
         assertEquals("*" + System.lineSeparator() + "*" + System.lineSeparator() + "*", temp);
-        System.out.println(temp);
     }
 
     @Test
     public void verticalLineSix() {
         String temp = new Triangle().verticalLine(6);
         assertEquals("*" + System.lineSeparator() + "*" + System.lineSeparator() + "*" + System.lineSeparator() + "*" + System.lineSeparator() + "*" + System.lineSeparator() + "*", temp);
-        System.out.println(temp);
     }
 
 
@@ -105,6 +102,46 @@ public class TriangleTest {
     @Test
     public void isoscelesTriangleFour() {
         assertEquals("   " + "*" + System.lineSeparator() + "  ***" + System.lineSeparator() + " *****" + System.lineSeparator() + "*******", new Triangle().isoscelesTriangle(4));
+    }
+
+    @Test
+      public void diamondOfStarsZero(){
+        assertEquals("",  new Triangle().diamondOfStars(0));
+    }
+
+    @Test
+    public void diamondOfStarsOne(){
+        assertEquals("*", new Triangle().diamondOfStars(1));
+    }
+
+    @Test
+    public void diamondOfStarsTwo(){
+        assertEquals(" *" + System.lineSeparator() + "***" + System.lineSeparator() + " *", new Triangle().diamondOfStars(2));
+    }
+
+    @Test
+    public void diamondOfStarsThree(){
+        assertEquals("  *" + System.lineSeparator() + " ***" + System.lineSeparator() + "*****" + System.lineSeparator() + " ***" + System.lineSeparator() + "  *", new Triangle().diamondOfStars(3));
+    }
+
+    @Test
+    public void diamondWithNameZero(){
+        assertEquals("",  new Triangle().diamondWithName(0));
+    }
+
+    @Test
+    public void diamondWithNameOne(){
+        assertEquals("Robert", new Triangle().diamondWithName(1));
+    }
+
+    @Test
+    public void diamondWithNameTwo(){
+        assertEquals(" *" + System.lineSeparator() + "Robert" + System.lineSeparator() + " *", new Triangle().diamondWithName(2));
+    }
+
+    @Test
+    public void diamondWithNameThree(){
+        assertEquals("  *" + System.lineSeparator() + " ***" + System.lineSeparator() + "Robert" + System.lineSeparator() + " ***" + System.lineSeparator() + "  *", new Triangle().diamondWithName(3));
     }
 
 }
