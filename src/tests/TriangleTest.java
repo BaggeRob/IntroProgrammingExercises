@@ -1,5 +1,6 @@
-package exercises;
+package tests;
 
+import exercises.Triangle;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
